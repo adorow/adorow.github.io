@@ -1,0 +1,7 @@
+name: adorow
+description: adorow.github.io
+url: "http://adorow.github.io"
+
+theme: minima
+
+permalink: pretty
