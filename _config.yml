@@ -48,10 +48,6 @@ url: http://adorow.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
 permalink: /blog/:year/:month/:day/:title
 
 # The release of Jekyll Now that you're using
