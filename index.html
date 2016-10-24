@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="posts">
-    {% for post in site.posts limit:5 %}
+    {% assign postsLimit = 5 %}
+    {% for post in site.posts limit: postsLimit %}
     <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -15,7 +16,7 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
     {% endfor %}
-    {% if site.posts.size > 5%}
-    <p>Want more? Check the <a href="{{ site.baseurl }}/archive">archive</a>.</p>
+    {% if site.posts.size > postsLimit %}
+    <p>Want more posts? There's {{ site.posts.size | minus: postsLimit }} more in the <a href="{{ site.baseurl }}/archive">archive</a>.</p>
     {% endif %}
 </div>
