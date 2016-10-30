@@ -12,9 +12,9 @@ Hoje consegui resolver um dos problemas mais "cabulosos" pelos quais já me defr
 Abaixo seguem as "provas" desta façanha, os algoritmos foram submetidos ao UVa Online e ao br.SPOJ:
 
 
-![UVa ranking]({{ site.baseurl }}/images/uva-set-rank.jpg)
+![UVa ranking]({{ site.baseurl }}/images/posts/uva-set-rank.jpg)
 
-![spoj.br ranking]({{ site.baseurl }}/images/spoj-set-rank.jpg)
+![spoj.br ranking]({{ site.baseurl }}/images/posts/spoj-set-rank.jpg)
 
 Recomendo que todo programador/desenvolvedor participe desse tipo de competição para aguçar suas habilidades e se forçar a pensar um pouco em novos caminhos...
 

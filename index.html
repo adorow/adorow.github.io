@@ -17,6 +17,6 @@ layout: default
     </article>
     {% endfor %}
     {% if site.posts.size > postsLimit %}
-    <p>Want more posts? There's {{ site.posts.size | minus: postsLimit }} more in the <a href="{{ site.baseurl }}/archive">archive</a>.</p>
+    <p>Want more? These and {{ site.posts.size | minus: postsLimit }} more posts can be found in the <a href="{{ site.baseurl }}/archive">archive</a>.</p>
     {% endif %}
 </div>
