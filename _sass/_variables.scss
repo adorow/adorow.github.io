@@ -35,3 +35,9 @@ $georgia: Georgia, serif;
 @mixin noprint {
   display: none;
 }
+
+@mixin boxshadow($hShadow, $vShadow, $color) {
+  -moz-box-shadow: $hShadow $vShadow $color;
+  -webkit-box-shadow: $hShadow $vShadow $color;
+  box-shadow: $hShadow $vShadow $color;
+}

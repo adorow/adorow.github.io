@@ -3,15 +3,18 @@
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  //@include boxshadow(3px 3px rgba(0,0,0,0.1));
   margin: 20px 0 20px 0;
   overflow: auto;
 }
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+}
+
+.highlight .language-shell {
+  .gp { color: $blue; font-weight: bold } /* Generic.Prompt */
+  .nb { color: $orange } /* Name.Builtin */
 }
 
 .highlight .c { color: #586E75 } /* Comment */
