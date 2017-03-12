@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Untracking .gitignored files
-tags: [git]
+tags: [git, cli]
 ---
 
 I've been using [Git](https://git-scm.com/) for a few years now. Mostly on my [personal projects](https://github.com/adorow) and more recently also professionally.
