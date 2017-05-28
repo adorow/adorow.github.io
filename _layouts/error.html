@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
     <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <script src="{{ site.baseurl }}/js/load-error-image.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css"/>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+          href="{{ site.baseurl }}/feed.xml"/>
+</head>
 
-  <body onload="loadErrorImage()" style="background-repeat: repeat; background-size: cover;" />
-
-  <div class="wrapper-error-content">
+<body onload="loadErrorImage()" style="background-repeat: repeat; background-size: cover;">
+<div class="error-content-gap"></div>
+<div class="wrapper-error-content">
     <div id="error-box" role="main" class="error-content">
-      <h1>{{ page.title }}</h1>
-      <p>{{ content }}</p>
+        <h1>{{ page.title }}</h1>
+        <p>{{ content }}</p>
     </div>
-  </div>
+</div>
 
-  </body>
+</body>
 </html>

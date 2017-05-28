@@ -250,6 +250,10 @@ nav {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 //
 // .main
 //
@@ -325,9 +329,12 @@ footer {
   list-style-type: none;
 }
 
+.error-content-gap {
+  margin-top: 250px;
+}
+
 .wrapper-error-content {
   display: block;
-  margin-top: 250px;
 }
 
 .error-content {
@@ -342,12 +349,20 @@ footer {
 
   h1 {
     color: $gray;
+    text-align: center;
   }
 }
 
-.error-content h1 {
-  text-align: center;
+.page-error-content {
+  box-sizing: border-box;
+  color: $gray;
+  display: block;
+  margin: 0 auto;
+  background: rgba(255, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 25px;
 }
+
 
 // loading image
 .loading {

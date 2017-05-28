@@ -9,12 +9,22 @@ title: Projects
 <script src="{{ site.baseurl }}/js/github/load-projects.js"></script>
 
 <section id="projects">
-  <h3>... on GitHub</h3>
+    <h3>... on GitHub</h3>
 
     <div class="loading loading-projects">
     </div>
 
     <div class="projects">
-      <!-- projects go here -->
+        <!-- projects go here -->
+    </div>
+
+    <div id="projects-error" class="hidden">
+        <div id="projects-error-wrapper" class="wrapper-error-content">
+            <div id="error-box" role="main" class="page-error-content">
+                <p><span>There was an error retrieving the projects from GitHub, try again later.</span>
+                    <span>If the errors persist, I would appreciate if you contact me about it in the links in the footer.</span>
+                </p>
+            </div>
+        </div>
     </div>
 </section>
