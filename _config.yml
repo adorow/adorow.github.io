@@ -8,7 +8,7 @@ name: Anderson Dorow
 email: andersondorow@gmail.com
 
 # Short bio or description (displayed in the header)
-description: Software Engineer • Footballer • Traveller
+description: Yet another Software Engineer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/1325230?v=3&s=40
@@ -53,15 +53,15 @@ permalink: /blog/:year/:month/:day/:title
 # The release of Jekyll Now that you're using
 version: v1.2.0
 
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+## Jekyll 3 now only supports Kramdown for Markdown
+#kramdown:
+#  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+#  input: GFM
+#  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+#  syntax_highlighter: rouge
+#  syntax_highlighter_opts:
+#    # Use existing pygments syntax highlighting css
+#    css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
 sass:

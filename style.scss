@@ -23,6 +23,11 @@ body {
   color: $darkGray;
 }
 
+small {
+  display: inline-block;
+  font-size: 10px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -388,7 +393,7 @@ footer {
   border-radius: 4px;
 }
 
-//   perhaps can create at the end of the row a dummy component with this margin-right? but I think it wont really work,
+// perhaps can create at the end of the row a dummy component with this margin-right? but I think it wont really work,
 // because that component and not the tile will be attached to the right
 .projects h5 {
   margin: 0;
@@ -486,7 +491,7 @@ footer {
   width: 100%;
 
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .project .header-link:hover, .bottom-links:hover {
@@ -498,6 +503,11 @@ footer {
   font-weight: bold;
 }
 
+// FOOTER
+
+.amazon-disclaimer {
+  color: $gray;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

@@ -11,8 +11,6 @@ I'm very much into programming languages and functional programming. My work exp
 
 I am also interested in music, sports (mainly football, volleyball) and travelling.
 
-Here is my [curriculum](https://drive.google.com/open?id=0B-9oV8X1aAtVYTc2Y2NhMDAtM2I0OC00OTI5LWIxZDAtN2MzYWFlOWU0YzIx).
-
 ### Contact me
 
-[{{ site.email }}](mailto:{{ site.email }})
+[Via e-mail](mailto:{{ site.email }})
