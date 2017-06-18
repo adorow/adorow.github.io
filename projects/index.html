@@ -6,25 +6,10 @@ title: Projects
 <section id="projects">
     <h3>... on GitHub</h3>
 
-    <div class="loading loading-projects">
-    </div>
-
-    <div class="projects">
+    <div class="projects" id="projects-root">
         <!-- projects go here -->
     </div>
 
-    <div id="projects-error" class="hidden">
-        <div id="projects-error-wrapper" class="wrapper-error-content">
-            <div id="error-box" role="main" class="page-error-content">
-                <p><span>There was an error retrieving the projects from GitHub, try again later.</span>
-                    <span>If the errors persist, I would appreciate if you contact me about it in the links in the footer.</span>
-                </p>
-            </div>
-        </div>
-    </div>
 </section>
 
-<script src="{{ site.baseurl }}/js/ajax.js"></script>
-<script src="{{ site.baseurl }}/js/github/github.js"></script>
-<script src="{{ site.baseurl }}/js/github/project-tiles.js"></script>
-<script src="{{ site.baseurl }}/js/github/load-projects.js"></script>
+<script src="{{ site.baseurl }}/js/generated/react/githubprojects/bundle.js"></script>
