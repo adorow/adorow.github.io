@@ -136,3 +136,7 @@ The book has made some good points so far, and also adds some others that are a 
 I'm looking forward to reading the next chapters and see what other learnings it can bring.
 
 If you are interested in the book, it is available on [amazon.com](http://amzn.to/2qOrGNj) and [amazon.de](http://amzn.to/2qO5wuI).
+
+If you liked this post, you might want to check out:
+* [Part 2]({{site.baseurl}}/blog/2017/06/18/elegant-objects-volume-1-review-chapter-2)
+ 

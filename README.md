@@ -4,3 +4,9 @@
 
 This repository contains the code from my blog. Hosted on [GitHub Pages](https://pages.github.com/), powered by [Jekyll](jekyllrb.com).
 
+# running
+
+```
+jekyll serve --drafts
+```
+
