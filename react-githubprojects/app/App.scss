@@ -1,0 +1,132 @@
+@import "variables";
+
+.projects {
+  overflow: auto;
+}
+
+.project-tile {
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  margin-bottom: 24px;
+  margin-right: 15px;
+  position: relative;
+  height: 200px;
+  width: 230px;
+
+  border: 1px solid $midLightGray;
+  border-radius: 4px;
+}
+
+// perhaps can create at the end of the row a dummy component with this margin-right? but I think it wont really work,
+// because that component and not the tile will be attached to the right
+.projects h5 {
+  margin: 0;
+}
+
+.project-tile.last-in-row {
+  margin-right: 0px;
+}
+
+.project-stack {
+  padding: 0;
+}
+
+.project-stack > .project-item:first-child {
+  border-top: none;
+}
+
+.project-stack > .project-item {
+  padding: 14px 11px 11px;
+  border-top: 1px solid $midLightGray;
+}
+
+.project .repo-name {
+
+}
+
+.project .repo-info {
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.project .repo-info span {
+  margin-right: 20px;
+}
+
+.project .repo-info {
+
+  .language {
+    color: #999;
+    font-weight: bold;
+  }
+
+  .Groovy {
+    color: $green;
+  }
+
+  .Python {
+    color: $orange;
+  }
+
+  .Haskell {
+    color: $black;
+  }
+
+  .Java {
+    color: $strongerBlue;
+  }
+
+  .Ruby {
+    color: $red;
+  }
+
+}
+
+// octicon updates
+.repo-info .octicon {
+  font-size: 12px;
+
+}
+
+.repo-info .octicon.octicon-star {
+  font-size: 14px;
+}
+
+.project .bottom-links {
+
+  .octicon {
+    margin-right: 6px;
+  }
+
+  .octicon-browser {
+    font-size: 12px;
+  }
+
+}
+
+.project .bottom-links {
+  color: $blue;
+}
+
+.project .bottom-links {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.project .header-link:hover, .bottom-links:hover {
+  background: $lightGray;
+}
+
+.project .bottom-links a {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
