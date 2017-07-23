@@ -304,3 +304,6 @@ And since they are an extension to that, for special business logic, I would pre
 If you are enjoying this review, leave a comment, and keep an eye on for the next two parts!
 
 If you are interested in the book, it is available on [amazon.com](http://amzn.to/2qOrGNj) and [amazon.de](http://amzn.to/2qO5wuI).
+
+If you liked this post, check the rest of the series:
+* [Part 3]({{site.baseurl}}/blog/2017/??/??/elegant-objects-volume-1-review-chapter-3)

@@ -137,6 +137,6 @@ I'm looking forward to reading the next chapters and see what other learnings it
 
 If you are interested in the book, it is available on [amazon.com](http://amzn.to/2qOrGNj) and [amazon.de](http://amzn.to/2qO5wuI).
 
-If you liked this post, you might want to check out:
+If you liked this post, check the rest of the series:
 * [Part 2]({{site.baseurl}}/blog/2017/06/18/elegant-objects-volume-1-review-chapter-2)
- 
+* [Part 3]({{site.baseurl}}/blog/2017/??/??/elegant-objects-volume-1-review-chapter-3)
