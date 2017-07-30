@@ -307,3 +307,4 @@ If you are interested in the book, it is available on [amazon.com](http://amzn.t
 
 If you liked this post, check the rest of the series:
 * [Part 3]({{site.baseurl}}/blog/2017/07/23/elegant-objects-volume-1-review-chapter-3)
+* [Part 4]({{site.baseurl}}/blog/2017/07/30/elegant-objects-volume-1-review-chapter-4)

@@ -170,8 +170,9 @@ public <T> int size(Iterable<T> iterable) {
 This way the calling code does not have to be changed, and we make explicit that we do have different implementations for the algorithm based on the types.
 
 
-
-
 If you are enjoying this review, leave a comment, and keep an eye on for the next and final part!
 
 If you are interested in the book, it is available on [amazon.com](http://amzn.to/2qOrGNj) and [amazon.de](http://amzn.to/2qO5wuI).
+
+If you liked this post, check the rest of the series:
+* [Part 4]({{site.baseurl}}/blog/2017/07/30/elegant-objects-volume-1-review-chapter-4)
