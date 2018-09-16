@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I'm a Software Engineer, born and grown in Brazil. I got my degree in Computer Science at Fundação Universidade Regional de Blumenau (FURB).
+I'm a Software Engineer, born and raised in Brazil. I got my degree in Computer Science at Fundação Universidade Regional de Blumenau (FURB).
 
 Since then I moved out to Dublin, Ireland for a year, and then to Munich, Germany where I currently live.
 
