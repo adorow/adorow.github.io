@@ -18,7 +18,7 @@ The main driver being how much trouble I had trying to upgrade a Java applicatio
 So in an attempt to help other people not waste time with the boring issues like "JUnit 5 tests are not running properly from Maven", I put a minimalistic package of a very simple webapp that works out of the box, using the tech I mentioned above.
 
 And starting this weekend, I'm creating this [little project](https://github.com/adorow/intro-algorithms-kotlin).
-Here my goals is to go through the entire book Introduction to Algorithms, by Cormen et. al., and implement the algorithms described there in Kotlin, with whatever feature Kotlin might provide.
+Here my goals is to go through the entire book [Introduction to Algorithms, by Cormen et. al.](https://www.amazon.com/Introduction-Algorithms-International-Thomas-Cormen/dp/0262533057), and implement the algorithms described there in Kotlin, with whatever feature Kotlin might provide.
 
 I own the Third edition of the book for a few years now, and stated reading the book many times, but never really got to read the whole thing. So with this new little project my plan is to go and finally finish reading the book once, and in the meantime learn myself some Kotlin.
 
