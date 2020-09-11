@@ -18,7 +18,7 @@ It finishes up with a neat timeline of contributions that lead to the creation o
 
 Check it out for yourself and see what you think about it.
 
-[stack-overflow]: [https://stackoverflow.com/]
-[the-overflow]: [https://stackoverflow.blog/newsletter/]
 [explained-from-first-principles]: [https://explained-from-first-principles.com]
+[stack-overflow]: [https://stackoverflow.com/]
 [the-internet]: [https://explained-from-first-principles.com/internet]
+[the-overflow]: [https://stackoverflow.blog/newsletter/]
