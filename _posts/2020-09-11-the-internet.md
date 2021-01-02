@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The internet'
+title: The internet
 tags: [internet, explained-from-first-principles, recommendation]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Learning Kotlin'
+title: Learning Kotlin
 tags: [kotlin, springboot2, introduction-to-algorithms]
 ---
 
